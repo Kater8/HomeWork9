@@ -27,6 +27,8 @@ class TextStyle : TextStyleProtocol {
             return .red
         case .none:
             return .clear
+        case .email:
+            return .blue
         }
     }
 }
